@@ -1,0 +1,40 @@
+/* 
+    Document   : public
+    Created on : 2013-3-20, 23:29:46
+    Author     : Hong
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+/* mainframe 的背景色  */
+.mainbg{
+    background-color: #273362;
+    width: 100%;
+}
+
+/* mainframe 顶部的图片距离  */
+.ustop{
+    margin-top: 10px;
+    background-color: #FFF;
+    min-height: 460px;
+    padding-top:20px;
+    margin-right: 10px;
+}
+/*  公用的表格 */
+.pubtab{
+    width: 100%;
+}
+.pubth{
+    text-align: center;
+    background-color: #364C6D;;
+    color: #fff;
+    padding: 5px;
+}
+.pubtd{
+    border-bottom: 1px #3325f2 dashed;
+    text-align: center;
+    padding: 3px;
+}

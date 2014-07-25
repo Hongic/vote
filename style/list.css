@@ -1,0 +1,27 @@
+
+.list{
+    padding: 0px;
+    margin: 0px;
+    min-height: 300px;
+    background-color: #FFF5D0;
+    clear: both;
+    padding: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius:6px;
+    position: relative;
+    behavior:url(pie.htc);
+}
+.list th{
+    background-color: #1c4ef3;
+    padding: 6px;
+    text-align: center;
+    color: #fff;
+    min-width: 60px;
+    font: 18px;
+}
+.list td{
+    border-bottom: 1px #d90721 dashed;
+    padding: 6px;
+    text-align: center;
+}

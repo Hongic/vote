@@ -1,0 +1,68 @@
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+    margin: 6px ;
+    background-color: #FFF5D0;
+    clear: both;
+}
+.box {
+    width:206px;
+    margin: 8px;
+    padding:8px ;
+    float:left;
+    color:#555;
+    margin-top: 10px  ;
+    background:#FFF;
+    font-size: 18px;
+    line-height: 1.7em;
+    display:inline;
+
+
+
+    /*阴影 不兼容IE9以下版本*/
+    -webkit-box-shadow:0 1px 5px rgba(34,25,25,0.4);
+    -moz-box-shadow:0 1px 5px rgba(34,25,25,0.4);
+    -ms-box-shadow:0 1px 5px rgba(34,25,25,0.4);
+    -o-box-shadow:0 1px 5px rgba(34,25,25,0.4);
+    box-shadow:0 1px 5px rgba(34,25,25,0.4);
+
+    /*圆角 不兼容IE9以下版本*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+    position:relative;    
+    z-index:20;  
+    behavior:url(pie.htc);
+
+}
+.box-img {
+    max-width: 100%;
+    padding-bottom: 6px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+    position:relative;    
+    z-index:20; 
+    behavior:url(pie.htc);
+    display:block;
+    float: left;
+    height: 220px;
+    width: 200px;
+}
+.box-pe{
+    text-align: center;
+}
+.box-list {
+    text-align: center;
+
+}
+
+.box-list a{
+    margin: 3px;
+
+}
+

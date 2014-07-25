@@ -1,0 +1,173 @@
+
+/*    排行榜 左        */
+.votes_left{
+    width: 738px;
+    min-height: 300px;;
+    padding:3px;
+    border:0px #470503 dashed;
+    background-color: #FFF5D0;
+    margin: 1px;
+    font-size: 16px;
+    float: left;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+
+}
+.votes_left img{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius:8px;
+    behavior:url(pie.htc);
+}
+
+/*    排行榜 右        */
+.votes_right{
+    width: 200px;
+    min-height: 300px;
+    padding: 3px;
+    border:0px #470503 dashed;
+    background-color: #FFF5D0;
+    display:inline;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2em;
+    float: right;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+
+
+}
+.rangk_r_th{
+    background-color: #AB1200;
+    color: #fff;
+    width: 60px;
+    font-size: 20px;
+    padding: 1px;
+    margin: 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+}
+.rangk_r_td{
+    border-bottom:  1px #fce939 dashed;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+}
+.rang_pic_top3{
+    background-color: #f10917;
+    font-size: 20px;
+    color: #fff;
+    padding: 3px 8px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+}
+.rang_pic_fff{
+    background-color: #fce939;
+    color: #000;
+    font-size: 16px;
+    padding: 2px 6px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+}
+/* 中间的主要容器  */
+.votes_content{
+    width: 975px;
+    background-color:#FFF5D0;
+    min-height: 300px;
+    padding:0px;
+    margin: 0px;
+    margin-top: 0px;
+    clear: both;
+    display: inline;
+    border: 0px #AB1200 dashed;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+
+}
+.votes_notice{
+    background-color: #FFF5D0;
+    margin-top: 10px;
+    padding: 50px 85px;
+    min-height: 300px;
+    line-height: 1.8em;
+    font-size: 16px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+
+}
+
+/*    every 的详细信息    */
+.votes_every{
+    padding: 6px;
+    padding-top: 12px;
+    color: #000;
+	background-color:#FFF5D0;
+    font-size: 18px;
+    text-indent: 2em;
+    line-height: 1.6em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+}
+.votes_every  img{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+}
+
+/*  BBS     */
+.votes_bbs{
+    color: #dffcfa;
+    font-size: 15px;
+    padding: 10px;
+}
+.space1{
+    padding-right: 80px;
+    color: #fce939;
+}
+.space2{
+    padding:0px  30px;;
+
+}
+.space3{
+    padding-left: 33px;
+}
+.space4{
+    width: 530px;
+    height: 130px;
+    padding: 2px;
+}
+.inp{
+    padding: 3px;
+    font-size: 18px;
+    margin-left: 47px;
+}
+/*  瀑布流下的投票妞    */
+.votes_button{
+    background-color: #cfcef6;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+    behavior:url(pie.htc);
+    color: #1918bc;
+    font-weight: 700;
+    padding: 5px 16px;
+
+}

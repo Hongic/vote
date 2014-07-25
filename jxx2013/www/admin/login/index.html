@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0032)http://localhost/admin/login.asp -->
+<HTML><HEAD><TITLE>后台管理</TITLE>
+        <META content="text/html; charset=gb2312" http-equiv=Content-Type><LINK 
+            rel=stylesheet type=text/css href="images/common.css">
+        <SCRIPT language=JavaScript>
+
+            // 表单提交客户端检测
+            function doSubmit() {
+                if (document.myform.username.value == "") {
+                    alert("用户名不能为空！");
+                    return false;
+                }
+                if (document.myform.password.value == "") {
+                    alert("密码不能为空！");
+                    return false;
+                }
+
+            }
+        </SCRIPT>
+
+        <META name=GENERATOR content="MSHTML 8.00.6001.19258"></HEAD>
+    <BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+        <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" height="100%">
+            <TBODY>
+                <TR>
+                    <TD>
+                        <TABLE border=0 cellSpacing=0 cellPadding=0 width=526 align=center>
+                            <FORM method=post name=myform action="login_check.php">
+                                <TBODY>
+                                    <TR>
+                                        <TD colSpan=2><IMG border=0 
+                                                           src="images/al_top.gif"></TD></TR>
+                                    <TR>
+                                        <TD colSpan=2>
+                                            <TABLE border=0 cellSpacing=0 cellPadding=0 width=526>
+                                                <TBODY>
+                                                    <TR>
+                                                        <TD width=155><IMG border=0 
+                                                                           src="images/al_username.gif"></TD>
+                                                        <TD background=images/al_body_bg.gif 
+                                                            width=105>
+                                                            <INPUT id=username class=input_login  maxLength=20 size=15 name="username">
+                                                        </TD>
+                                                        <TD width=93><IMG border=0 
+                                                                          src="images/al_password.gif"></TD>
+                                                        <TD background=images/al_body_bg.gif 
+                                                            width=105>
+                                                            <INPUT id=password class=input_login maxLength=20   size=15 type=password name=password>
+                                                        </TD>
+                                                        <TD width=68><IMG border=0 
+                                                                          src="images/al_body_right.gif"></TD></TR></TBODY></TABLE></TD></TR>
+                                    <TR>
+                                        <TD colSpan=2>
+                                            <TABLE border=0 cellSpacing=0 cellPadding=0 width=526>
+                                                <TBODY>
+                                                    <TR>
+                                                        <TD width=77><IMG border=0 
+                                                                          src="images/al_end_left.gif"></TD>
+                                                        <TD width=339>
+                                                            <TABLE border=0 cellSpacing=0 cellPadding=0 width=339>
+                                                                <TBODY>
+                                                                    <TR>
+                                                                        <TD height=49 
+                                                                            background=images/al_end_bg.gif 
+                                                                            align=middle>
+                                                                        </TD></TR>
+                                                                    <TR>
+                                                                        <TD><IMG border=0 
+                                                                                 src="images/al_end_end.gif"></TD>
+                                                                    </TR>
+                                                                </TBODY>
+                                                            </TABLE>
+                                                        </TD>
+                                                        <TD width=110><INPUT onclick="return doSubmit()" border=0 src="images/al_end_right.gif" width=110   height=88 type=image  name="submit"  ></TD></TR>
+                                                </TBODY>
+                                            </TABLE>
+                                        </TD>
+                                    </TR>
+                            </FORM>
+            </TBODY>
+        </TABLE>
+    </TD>
+</TR>
+</TBODY>
+</TABLE>
+<DIV>
+
+</DIV>
+</TD>
+</TR>
+</TABLE>
+<DIV style="DISPLAY: none">
+    <SCRIPT language=javascript charset=gb2312 
+            src="images/click.htm">
+    </SCRIPT>
+</DIV>
+<NOSCRIPT>
+    <IFRAME 
+        src="images/sa.htm">
+
+    </IFRAME>
+</NOSCRIPT>
+</BODY>
+</HTML>
